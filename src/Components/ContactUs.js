@@ -6,9 +6,12 @@ import { useForm, ValidationError } from '@formspree/react';
 
 
 function ContactUs(){
-     const [state, handleSubmit] = useForm("xwkaklky");
+    const [state, handleSubmit] = useForm("mpzkzpod");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Thanks for Mailing us we'll get back to you soon
+
+        <ContactUs/>
+      </p>;
   }
     return(
         <div id="contact" className="contactus" >
@@ -33,7 +36,7 @@ function ContactUs(){
                 <div className="email ">
                    <MailOutlineSharpIcon/>
                     <h3 className="text-gray text-contact">Email/Message Us</h3>
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit} className="form">
       <label htmlFor="email">
         Email Address
       </label>
