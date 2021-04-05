@@ -47,6 +47,9 @@ function ContactUs(){
         field="email"
         errors={state.errors}
       />
+      <label htmlFor="email">
+       Your Message 
+      </label>
       <textarea
         id="message"
         name="message"
