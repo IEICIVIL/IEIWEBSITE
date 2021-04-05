@@ -48,9 +48,9 @@ function TeamSection(){
       <p>IEI Student Chapter</p>
       <p>Birla Institute of Technology</p><small>Mesra</small>
       <div className="social-media">
-        <a href="https://www.instagram.com/iei_civil_bitmesra/"><img src={facebook}/></a>
+        <a href="https://www.facebook.com/IeiCivilBitMesra/"><img src={facebook}/></a>
         <a href="https://www.instagram.com/iei_civil_bitmesra/"><img src={instagram}/></a>
-        <a href="https://www.instagram.com/iei_civil_bitmesra/"><img src={linkedin}/></a>
+        <a href="https://in.linkedin.com/company/iei-civil-bit-mesra"><img src={linkedin}/></a>
 
       </div>
     </div>
