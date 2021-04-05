@@ -15,6 +15,7 @@ import Gallery from './Components/Gallery';
 import TeamSection from './Components/TeamSection';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import Navbar from './Components/Navbar';
+import GalleryTwo from './Components/GalleryTwo';
 
 function App() {
 
@@ -62,7 +63,8 @@ function App() {
           <Header  />
           <About />
           {/* <EventSection/> */}
-          <Gallery />
+          {/* <Gallery /> */}
+          <GalleryTwo/>
           <TeamSection />
           <Sponsership />
           <MapLocation />

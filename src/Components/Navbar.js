@@ -33,6 +33,11 @@ function Navbar() {
                         </A>
                     </li>
                     <li>
+                        <A to="/blogs" >
+                        <BusinessOutlinedIcon className="display"/> Blogs
+                        </A>
+                    </li>
+                    <li>
                         <Link activeClass="active"  to="team" spy={true} smooth={true}>
                       <PeopleAltOutlinedIcon className="display"/>  Teams
                         </Link>
