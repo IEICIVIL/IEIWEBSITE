@@ -33,7 +33,7 @@ function ContactUs(){
                 <div className="email ">
                    <MailOutlineSharpIcon/>
                     <h3 className="text-gray text-contact">Email/Message Us</h3>
-                    <form onSubmit={handleSubmit} className="form">
+                    <form onSubmit={handleSubmit}>
       <label htmlFor="email">
         Email Address
       </label>
@@ -47,10 +47,6 @@ function ContactUs(){
         field="email"
         errors={state.errors}
       />
-      <br/>
-      <label htmlFor="email">
-        Your Message
-      </label>
       <textarea
         id="message"
         name="message"
