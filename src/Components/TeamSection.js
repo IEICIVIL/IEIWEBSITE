@@ -2,7 +2,7 @@ import React from "react";
 import Trishant from "../assets/trishantnewedit.jpeg";
 import Lavish from "../assets/Lavish.jpeg"
 import Ujjwal from "../assets/Ujjwal.jpg";
-import Shrique from "../assets/sharik.jpg";
+import Shrique from "../assets/sharik2.jpg";
 import Rupesh from "../assets/rupesh.jpeg";
 import Anubhaw from "../assets/Anubhaw.JPG";
 import facebook from "../assets/Social media icons/icons8-facebook-100.png";
@@ -16,9 +16,10 @@ function TeamSection(){
 
     const teamDetails = [
         {image:Anubhaw,name:"Anubhaw kr. Sinha",desgination:"President"},
-        {image:Shrique,name:"Sharique",desgination:"Vice-President"},
+      
 
         {image:Trishant,name:"Trishant Agarwal",desgination:"Joint president"},
+          {image:Shrique,name:"Sharique",desgination:"Vice-President"},
         {image:Lavish,name:"Lavish Kavdla",desgination:"Media & Publicity Director"},
         {image:Ujjwal,name:"Ujjwal Prakash",desgination:"Events Director"},
         {image:Rupesh,name:"Rupesh Kumar",desgination:"Technical Director"},
