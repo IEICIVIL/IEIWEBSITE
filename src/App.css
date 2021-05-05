@@ -192,8 +192,8 @@ a:hover {
   background: transparent;
 }
 .IEI__logo {
-  width: 110px;
-  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.4));
+  width: 70px;
+  filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.7));
 }
 
 .IEI__text {
@@ -483,6 +483,7 @@ input#menu {
     height: 80px;
     width: 100%;
     margin: 0 auto;
+    top: 0;
   }
   nav ul > li {
     margin: 0.5rem 2rem;
@@ -492,6 +493,7 @@ input#menu {
     padding-top: 2px;
     border-top: 0.176rem solid transparent;
     text-transform: uppercase;
+    font-size: 1rem;
   }
   i {
     display: none;
@@ -509,7 +511,7 @@ input#menu {
   }
 
   nav ul li i {
-    margin: 0 2px 0 0;
+    margin: 0 0px 0 0;
     color: var(--IEI-text-color) !important;
   }
 } /* navbar end */
@@ -1139,6 +1141,11 @@ footer {
     position: fixed;
     z-index: 2;
   }
+  .nav__black {
+    background-color: var(--background-color);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    z-index: 100;
+  }
   .display {
     display: none !important;
   }
@@ -1154,9 +1161,11 @@ footer {
     color: var(--white-color);
     font-weight: 700;
     letter-spacing: 0.1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-top: 0.3rem solid transparent;
-    background: linear-gradient(to right, #f98911 0%, #f91198fa 100%);
+    /* background: linear-gradient(to right, #b8ac9f 0%, #ac94a2fa 100%); */
+    background: linear-gradient(to right, #f8f5ef 0%, #d1c5cbfa 100%);
+    font-family: "Open Sans", sans-serif;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

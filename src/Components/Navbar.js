@@ -10,8 +10,21 @@ import {Link} from 'react-scroll';
 import {Link as A} from "react-router-dom";
 
 function Navbar() {
+
+       const [show,handleShow] = React.useState(false);
+    React.useEffect(()=>{
+        window.addEventListener("scroll",()=>{
+            if(window.scrollY > 100){
+            handleShow(true);
+        }
+        else handleShow(false);
+        });
+        return () => {
+            window.removeEventListener("scroll");
+        };
+    },[])
     return (
-         <nav>
+         <nav className={ show ? "nav__black" :" "}>
                 <ul>
                     <li className="Logo__list">
                         <img src={Logo} alt="IEI LOGO" className="IEI__logo"/>
