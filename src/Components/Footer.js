@@ -3,6 +3,8 @@ import React from 'react';
 import facebook from "../assets/Social media icons/icons8-facebook-100.png";
 import instagram from "../assets/Social media icons/icons8-instagram-100.png";
 import linkedin from "../assets/Social media icons/icons8-linkedin-100.png";
+import youtube from "../assets/Social media icons/icons8-youtube-music-100.png";
+
 
 function Footer() {
     return (
@@ -12,6 +14,8 @@ function Footer() {
         <a href="https://www.facebook.com/IeiCivilBitMesra/"><img src={facebook}/></a>
         <a href="https://www.instagram.com/iei_civil_bitmesra/"><img src={instagram}/></a>
         <a href="https://in.linkedin.com/company/iei-civil-bit-mesra"><img src={linkedin}/></a>
+        <a href="https://www.youtube.com/channel/UC8SwZagpibYS4pYBignT0Mg"><img src={youtube}/></a>
+
 
       </div>
         </footer>

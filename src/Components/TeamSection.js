@@ -43,8 +43,8 @@ function TeamSection(){
    
     
     <div class="member join">
-      <p>IEI Student Chapter</p>
-      <p>Birla Institute of Technology</p><small>Mesra</small>
+      <p>IEI Civil, Student's Chapter</p>
+      <p>Birla Institute of Technology</p><p>Mesra ,Ranchi</p>
       {/* <div className="social-media">
         <a href="https://www.facebook.com/IeiCivilBitMesra/"><img src={facebook}/></a>
         <a href="https://www.instagram.com/iei_civil_bitmesra/"><img src={instagram}/></a>

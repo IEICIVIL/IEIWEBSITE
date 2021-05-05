@@ -28,8 +28,8 @@ function ContactUs(){
                 <div className="phoneNumber">
                     <PhoneInTalkOutlinedIcon/>
                     <h3 className="text-gray text-contact">Call us</h3>
-                    <p><a href="tel:99349 65349"><span>Rituraj Raushan :-</span>+91 99349 65349</a><br/>
-                        <a href="tel:7656898989"><span>Muskan Gupta :-</span>+91 7656898989</a>
+                    <p><a href="tel:99349 65349"><span>Rituraj Raushan :-  </span>+91 99349 65349</a><br/>
+                        <a href="tel:7656898989"><span>Muskan Gupta :-  </span>+91 7656898989</a>
                     </p>
 
                 </div>
