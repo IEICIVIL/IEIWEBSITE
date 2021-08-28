@@ -1,13 +1,15 @@
 import React from "react";
-import AarohanLogo from "../assets/images/AR Logo.png";
-import Navbar from "./Navbar";
+import AarohanNavbar from "./AarohanNavbar";
+import "./Arohan21.css";
+
 
 
 
 function Aarohan21(){
     return(
         <div className="aarohan">
- <h1>Under Construction</h1>
+            <AarohanNavbar/>
+            <h1>Under Construction</h1>
 
         </div>
     )

@@ -188,13 +188,6 @@ a:hover {
 
   transition: all 0.3s ease-in-out;
 }
-.Logo__list:hover {
-  background: transparent;
-}
-.IEI__logo {
-  width: 70px;
-  filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.7));
-}
 
 .IEI__text {
   color: var(--white-color) !important;
@@ -1139,16 +1132,6 @@ footer {
 } */
 
 @media only screen and (min-width: 1200px) {
-  nav {
-    position: fixed;
-    background: rgba(0, 0, 0, 0.582);
-    z-index: 2;
-  }
-  .nav__black {
-    background: var(--background-color);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    z-index: 100;
-  }
   .display {
     display: none !important;
   }
@@ -1158,26 +1141,6 @@ footer {
   .sponserSection h1 {
     height: 100% !important;
     padding-top: 1.5rem;
-  }
-  nav ul li {
-    margin-top: 1rem;
-    color: var(--white-color);
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    font-size: 1rem;
-    border-top: 0.3rem solid transparent;
-    /* background: linear-gradient(to right, #b8ac9f 0%, #ac94a2fa 100%); */
-    background: linear-gradient(to right, #f8f5ef 0%, #d1c5cbfa 100%);
-    font-family: "Open Sans", sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  nav ul li:nth-child(1):hover {
-    border: none !important;
-  }
-  nav ul li:hover {
-    /* border-top: 0.3rem solid #f98911; */
-    transition: border-top 0.5s ease-in-out;
   }
   .header .enter .buttons button {
     height: 45px;
@@ -1300,122 +1263,6 @@ footer {
 
   .contactus h3 {
     font-size: 2.1rem;
-  }
-  input#menu {
-    display: none;
-  }
-  .iconBar {
-    background-color: rgba(0, 0, 0, 0.397);
-    cursor: pointer;
-    display: block;
-    height: 49.8px;
-    padding: 16px;
-    width: 60.9px;
-  }
-  label.iconBar {
-    position: fixed;
-    z-index: 200;
-  }
-  .iconBar .menu,
-  .iconBar .menu::before,
-  .iconBar .menu::after {
-    background: #e63636fa;
-    content: "";
-    display: block;
-    height: 4px;
-    position: absolute;
-    transition: background ease 0.3s, top ease 0.3s, transform ease 0.3s;
-    width: 25px;
-  }
-  #menu:checked + .iconBar .menu::after {
-    transform: rotate(-45deg);
-  }
-
-  #menu:checked + .iconBar .menu::after,
-  #menu:checked + .iconBar .menu::before {
-    top: 0;
-    transition: top ease 0.3s, transform ease 0.3s 0.3s;
-  }
-  nav {
-    background: rgba(0, 0, 0, 0.562);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 100vh;
-    padding: 80px 0 0 0;
-    position: fixed;
-    transition: width ease 0.6s;
-    width: 80px;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    opacity: 0;
-  }
-
-  #menu:checked ~ nav {
-    width: 200px;
-    opacity: 1;
-  }
-  .iconBar:hover .menu,
-  .iconBar:hover .menu::before,
-  .iconBar:hover .menu::after {
-    background: #e63636fa;
-  }
-  .iconBar .menu {
-    left: 20px;
-    top: 27px;
-  }
-  .iconBar .menu::after {
-    top: 6px;
-  }
-  .iconBar .menu::before {
-    top: -6px;
-  }
-  #menu:checked + .iconBar .menu {
-    background: transparent;
-  }
-  #menu:checked + .iconBar .menu::before {
-    transform: rotate(45deg);
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav li {
-    cursor: pointer;
-    display: block;
-    line-height: 60px;
-    padding-left: 19px;
-    white-space: nowrap;
-    color: #fff;
-    font-size: 1.4rem;
-    font-family: "Open Sans", sans-serif;
-  }
-  nav li:hover {
-    background: #e63636fa;
-    color: #fff;
-  }
-  nav li:hover > i {
-    color: #fff;
-  }
-  nav i {
-    color: #9fb1bd;
-    margin: 0 40px 0 0;
-    vertical-align: text-bottom;
-  }
-  .material-icons,
-  .display {
-    opacity: 1;
-  }
-  .MuiSvgIcon-root {
-    margin: 1rem 1rem 0 0;
-  }
-  nav ul {
-    margin: -34px 0 0 0;
-  }
-  nav ul li {
-    padding-left: 20px;
-    font-size: 1.1rem;
   }
   .text-contact {
     font-size: 1.2rem;

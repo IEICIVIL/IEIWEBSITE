@@ -8,6 +8,7 @@ import PeopleAltOutlinedIcon from '@material-ui/icons/PeopleAltOutlined';
 import ContactPhoneOutlinedIcon from '@material-ui/icons/ContactPhoneOutlined';
 import {Link} from 'react-scroll';
 import {Link as A} from "react-router-dom";
+import "./navbar.css";
 
 function Navbar() {
 
@@ -41,14 +42,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <A to="/Aarohan21" >
+                        <Link to="/Aarohan21" >
                         <BusinessOutlinedIcon className="display"/> Aarohan21
-                        </A>
+                        </Link>
                     </li>
                     <li>
-                        <A to="/blogs" >
+                        <Link to="/blog21" >
                         <BusinessOutlinedIcon className="display"/> Blogs
-                        </A>
+                        </Link>
                     </li>
                     <li>
                         <Link activeClass="active"  to="team" spy={true} smooth={true}>

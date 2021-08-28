@@ -16,6 +16,7 @@ import TeamSection from './Components/TeamSection';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import Navbar from './Components/Navbar';
 import GalleryTwo from './Components/GalleryTwo';
+import Blog21 from "./Components/Blog21"
 
 function App() {
 
@@ -47,6 +48,11 @@ function App() {
     <div className="App" >
       <Router>
         <Switch>
+          <Route path="/blog21" exact>
+           
+
+          <Blog21/>
+          </Route>
           <Route path="/aarohan21" exact>
            
 
